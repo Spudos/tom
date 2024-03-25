@@ -1,212 +1,208 @@
-/** light green #e4f3ed **/
-
 html {
   font-family: "Raleway", arial, sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500px;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-.space{
-  margin-right: 10px;
-}
-
-/** header **/
-
-#navigation {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  height: 125px;
-  color: #fff;
-  border-bottom: 1px #bfbfbf solid;
-}
-
-#navigation-logo {
-  color: #105236;
-  height: 40px;
-  margin-left: 40px;
-}
-
-#navigation-menu {
-  text-decoration: none;
-  color: #105236;
-  margin-left: auto;
-}
-
-#navigation-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#navigation-menu ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-#navigation-menu ul li a {
-  text-decoration: none;
   color: #105236;
 }
 
-#navigation-phone-number-wrapper {
-  text-align: right;
-  justify-content: right;
-  align-items: right;
-  margin-right: 40px;
-  margin-left: 40px;
-}
-
-#navigation-phone-number {
-  color:#fff;
-  background-color: #105236;
-  border-radius: 30px;
-  padding: 5px;
-  width: 250px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-/** form **/
-#form {
-  height: 800px;
-  width: 50%;
-  margin: auto;
-  margin-top: 100px;
-}
-
-#form-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-#step-text {
-  display: flex;
-  font-weight: 400;
-  font-size: 200%;
-}
-
-#get-debt-text {
-  color: #105236;
-  font-weight: 900;
-  font-size: 300%;
-}
-
-#help-text {
-  color: #f49831;
-  font-weight: 900;
-  font-size: 300%;
-  margin: 10px;
-}
-
-#step-text {
-  color: #105236;
-}
-
-/** money helper **/
-#money-helper {
-  background-color: #fffaf5;
-  color: #105236;
-  height: 400px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#money-helper-content {
-  width: 30%;
-  text-align: center;
-}
-
-#money-helper-logo {
-  height: 80px;
-  margin: 0 auto;
-}
-
-
-/** logo **/
-#logos {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 auto;
-  padding: 20px;
-  height: 400px;
-}
-
-.logo {
-  height: 75px;
-  margin-right: 75px;
-}
-
-footer {
-  height: 600px;
-  padding: 0;
-  background-color: #54b592;
-  color: #fff;
-}
-
-/** foooter **/
-
-#footer-logo {
-  height: 50px;
-  margin-left: 75px;
-  padding-top: 25px;
-  display: flex;
-  align-items:end;
-}
-
-.small-logo {
-  height: 30px;
-}
-
-.social-logo {
-  height: 20px;
-  margin: 0 10px;
-}
-
-#footer-social {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  padding: 20px;
-  margin-right: 75px;
-}
-
-#footer-top {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  margin: 0 auto;
-  width: 50%;
-}
-
-#footer-bottom {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-  padding: 20px;
-  margin: auto;
-}
-
-#footer-information {
-  display: flex;
-  align-items: center;
+.small-text {
+  font-size: 0.85rem;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #105236;
+  padding: 2rem;
+  font-weight: 500;
+}
+
+/** header **/
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  margin:auto;
+  height: 150px;
+  border-bottom: 1px #bfbfbf solid;
+}
+
+#header-logo {
+  max-height: 40px;
+  margin: 2rem;
+}
+
+#navigation-menu{
+  display: flex;
+  justify-content: end;
+}
+
+#navigation-menu ul li{
+  display: inline;
+}
+
+#header-phone-number {
+  color:#fff;
+  background-color: #105236;
+  border-radius: 30px;
+  padding: 0rem 2rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** form **/
+#form {
+  margin: auto;
+  max-width: 60%;
+  margin-top: 5rem;
+}
+
+#form-header {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+#step-text {
+  display: flex;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+#help-text {
+  color: #f49831;
+  margin: 1rem;
+}
+
+.space {
+  margin: 1rem;
+}
+
+#form-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem;
+  gap: 5rem;
+}
+
+.form-question-text {
+  background-color: #f3f7f5;
+  padding: 2rem;
+  letter-spacing: 2px;
+  font-size: 1.5rem;;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.form-question-input {
+  background-color: #fffaf5;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.form-button {
+  color: #fff;
+  background-color: #f49831;
+  border-radius: 40px;
+  text-align: center;
+  padding: 2rem 4rem;
+  max-width: 10%;
+  margin: 2rem;
+  font-weight: 700;
+}
+
+/** money helper **/
+#money-helper {
+  background-color: #fffaf5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+#money-helper-content {
+  max-width: 45%;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 2.5rem;
+  font-size: 1.25rem;
+}
+
+#money-helper-logo {
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+/** logo **/
+#logos {
+  display: flex;
+  justify-content: center;
+  padding: 13rem 0 5rem 0;
+}
+
+.logos-content {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.logo {
+  max-height: 40%;
+}
+
+/** foooter **/
+footer {
+  background-color: #54b592;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 8fr 1fr 1fr;
+  align-items: center;
+  padding: 3rem;
+}
+
+.small-logo {
+  max-height: 25px;
+}
+
+#footer-facebook {
+  margin-left: auto;
+  padding: 0.5rem;
+}
+
+#footer-twitter {
+  padding: 0.5rem;
+}
+
+#footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 50%;
+  padding-bottom: 3rem;
+  align-items: end;
+}
+
+#footer-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 50%
 }
