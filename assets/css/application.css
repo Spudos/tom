@@ -45,7 +45,8 @@ header {
 
 #header-logo {
   max-height: 40px;
-  margin: 2rem;
+  max-width: 90%;
+  margin: 1rem;
 }
 
 #navigation-menu ul li{
@@ -248,7 +249,7 @@ footer {
   display: grid;
   grid-template-columns: 8fr 1fr 1fr;
   align-items: center;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .small-logo {
@@ -271,6 +272,7 @@ footer {
   max-width: 80%;
   padding-bottom: 3rem;
   align-items: end;
+  font-size: 0.8rem;
 }
 
 #footer-bottom {
